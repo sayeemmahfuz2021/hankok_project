@@ -87,6 +87,11 @@ h6 {
     color: #ffffff;
 
 }
+.nav_actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* ----nav css end--- */
 /* ---banner part css start here--- */
@@ -384,7 +389,192 @@ h6 {
 
 
 
+/* ---POPULAR PASR CSSE START--- */
 
+#popular_game {
+    padding: 50px 0;
+    background-color: #191919;
+}
+
+.populae_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.populae_heading h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.populae_heading h3 .lshape {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 2px;
+    background-color: #ed3445;
+    left: -232px;
+    top: 17px;
+}
+
+
+
+.games_gallery {
+    display: flex;
+    align-items: center;
+margin-top: 50px;
+    position: relative;
+    width: 100%;
+}
+
+/* Common Image Style */
+.game_img {
+    width: 651px;
+    height: 400px;
+    position: relative;
+    background: #222;
+}
+.game_img{
+    overflow: visible;
+}
+.imgpp{
+    position: absolute;
+    top: -164px;
+    left: 73px;
+    
+}
+
+
+
+/* First Image */
+.game_one {
+    background: #ff4059;
+    clip-path: polygon(18% 0, 100% 0, 82% 100%, 0 100%);
+}
+
+/* Second Image */
+.game_two {
+    background: #222;
+    clip-path: polygon(18% 0, 100% 0, 82% 100%, 0 100%);
+}
+
+/* Navigation Buttons */
+.game_btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: -5px;
+}
+
+.game_btn button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #555;
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear 0.3s;
+}
+
+.game_btn button:hover {
+    background: #ff4059;
+    border-color: #ff4059;
+}
+
+/* ---POPULAR PASR CSSE START--- */
+
+
+
+/* ---LIVE PASR CSSE START--- */
+
+#live_part{
+    padding: 90px 0px;
+    background-color: #121212;
+}
+
+
+
+
+
+
+
+.live_part_heading {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.live_part_heading h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: 7%;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    gap: 15px;
+
+}
+
+.live_part_heading h3 .shape {
+    position: relative;
+}
+
+.live_part_heading h3 span {
+    position: relative;
+}
+
+.live_part_heading h3 span::before {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 2px;
+    background: #FF1744;
+    top: 80%;
+    left: calc(100% + 10px);
+    transform: translateY(-50%);
+}
+
+
+.video_wraper{
+    margin-top: 80px;
+}
+
+
+.video{
+    position: relative;
+}
+.video img{
+    filter: grayscale(100%);
+}
+.video_icon{
+    position: absolute;
+    top: 109px;
+    left: 162px;
+}
+.video_icon i{
+    font-size: 70px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/* ---LIVE PASR CSSE END--- */
 
 
 
