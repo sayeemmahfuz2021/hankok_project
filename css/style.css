@@ -548,14 +548,21 @@ margin-top: 50px;
 
 .video_wraper{
     margin-top: 80px;
+    position: relative;
+    display: flex;
+    gap: 20px;
 }
 
 
 .video{
     position: relative;
+    width: 427px;
+    transition: all linear 0.3s;
+    z-index: 50;
 }
 .video img{
     filter: grayscale(100%);
+    transition: all linear 0.2s;
 }
 .video_icon{
     position: absolute;
@@ -568,15 +575,103 @@ margin-top: 50px;
 }
 
 
+.video_tittle h3{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #fff;
+
+}
+.live{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 377px;
+}
+.live h5{
+font-family: "Oswald",sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #fff;
+}
+
+.live h4{
+font-family: "Oswald",sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #fff;
+
+
+}
+.live h4 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.live h4 .tshape {
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.video_tittle{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.video:hover{
+    z-index: 100;
+     scale: 1.1;
+     cursor: pointer;
+}
+.video:hover img{
+     filter: grayscale(0%);
+}
+
+.previous_match{
+    margin-top: 60px;
+}
+.pre_heading h3{
+ font-family: "Barlow Condensed", sans-serif;
+ font-weight: 500;
+ font-size: 25;
+ letter-spacing: 9%;
+ text-align: center;
+ color: #fff;
+
+
+}
+
+
+
+.firstmatch{
+    margin-top: 50px;
+}
 
 
 
 
+
+
+.matchcard{
+   clip-path: polygon(1.08% 41.2%, 100% 41.2%, 72.65% 75%, 1.08% 75%);
+
+   width: 426px;
+   height: 130px;
+   padding: 10px 2px;
+   background-color: #212121;
+   display: flex;
+   justify-content: space-between;
+}
 
 
 /* ---LIVE PASR CSSE END--- */
 
 
 
-font-family: "Oswald",
-sans-serif;
+font-family: "Oswald",sans-serif;
+
+font-family: "Barlow Condensed", sans-serif;
