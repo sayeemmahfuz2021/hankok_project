@@ -652,7 +652,7 @@ color: #fff;
     align-items: center;
     
 
-
+}
 .left_team{
     padding: 10px 0px;
  clip-path: polygon(0% 24.5%, 100% 25%, 75% 75%, 0% 75%);
@@ -712,43 +712,153 @@ color: #FFFFFF;
 /* ---LIVE PASR CSSE END--- */
 
 /* ---black friday css start here--- */
-#black_friday{
-    padding: 90px 0;
+#blackfeiday{
+    padding: 100px 0px;
     background-color: #191919;
 }
 
 
-
-
-
-
-.black_friday_heading {
+.black_heading {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    position: relative;
-    width: fit-content;
 }
 
-.black_friday_heading h3 {
+.black_heading h3 {
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     font-size: 38px;
     letter-spacing: 2px;
     color: #FFFFFF;
-    margin: 0;
-    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.black_friday_heading .lshape {
-    position: absolute;
+.black_heading h3 .lshape {
+    position: relative;
+    display: inline-block;
     width: 90px;
     height: 2px;
     background-color: #ed3445;
-    top: 48px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: -232px;
+    top: 17px;
 }
+
+
+.top_gamecard_wraper{
+    margin-top: 70px;
+    display: flex;
+    gap: 20px;
+}
+
+.topgame_card{
+    width: 315px;
+    position: relative;
+    transition: all linear 0.3s;
+    z-index: 50;
+
+}
+.topgame_card h3{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    
+}
+.topgame_card p{
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 20px;
+    
+}
+.rate{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.discount{
+    background-color: #FF4655;
+    padding: 5px;
+}
+.discount h4{
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.previous_rate{
+    padding: 5px;
+    background-color: transparent;
+}
+.previous_rate h4{
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+}
+.offer_rate{
+    padding: 5px;
+
+}
+.offer_rate h4{
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.cir_pluse{
+    position: absolute;
+    right: 0%;
+    top: 2%;
+}
+.cir_pluse i{
+    font-size: 40px;
+    color: #fff;
+    visibility: hidden;
+}
+.topgame_card:hover{
+    scale: 1.1;
+    cursor: pointer;
+    z-index: 70;
+
+}
+.topgame_card:hover .cir_pluse i{
+    visibility: visible;
+}
+.card_footer p{
+    margin-top:100px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+/* -----explore csssss partttt------- */
+
+#explore{
+    margin-top:40px;
+    padding: 42px 111px 42px 44px ;
+    background-color: #212121;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---black friday css end here--- */
 
 
@@ -756,6 +866,6 @@ color: #FFFFFF;
 
 
 
-font-family: "Oswald",sans-serif;
+/* font-family: "Oswald",sans-serif; */
 
-font-family: "Barlow Condensed", sans-serif;
+/* font-family: "Barlow Condensed", sans-serif; */
