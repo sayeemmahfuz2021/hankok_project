@@ -838,10 +838,98 @@ color: #FFFFFF;
 }
 /* -----explore csssss partttt------- */
 
-#explore{
-    margin-top:40px;
-    padding: 42px 111px 42px 44px ;
-    background-color: #212121;
+
+ .explore {
+    margin-top: 80px;
+  padding-top: 45px;
+  padding-bottom: 131px;
+  padding-left: 44px;
+  background-color: #212121;
+}
+
+.explore p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ff4655;
+  letter-spacing: 10%;
+}
+
+.explore h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: auto;
+  width: 580px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.explore h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #666666;
+  line-height: auto;
+  width: 601px;
+  margin-bottom: 25px;
+}
+
+.explore .browse_button {
+  padding: 13px 31px;
+  background-color: #ffffff;
+  display: inline-block;
+  transition: all 0.3s ease;
+  border: none;
+  color: #0b090d;
+}
+.explore .browse_button:hover {
+  background-color: #121212;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.explore .poster {
+  display: flex;
+  position: relative;
+}
+.explore .poster .imgOne {
+  position: absolute;
+  right: 109px;
+  top: -221px;
+}
+
+.explore .poster .imgtwo {
+  position: absolute;
+  right: 325px;
+  top: -221px;
+}
+
+.explore .poster .imgthree {
+  position: absolute;
+  right: 279px;
+  top: -238px;
+}
+
+.explore .poster .imgfour {
+  position: absolute;
+  right: 137px;
+  top: -238px;
+}
+
+.explore .poster .imgfive {
+  position: absolute;
+  right: 185px;
+  top: -259px;
+}
+/* ---black friday css end here--- */
+
+/* -accesories css part start--- */
+
+#accesories{
+    padding: 90px 0;
+    background-color: #121212;
 }
 
 
@@ -849,22 +937,120 @@ color: #FFFFFF;
 
 
 
+.accesories_heading {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.accesories_heading h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: 7%;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    gap: 15px;
+
+}
+
+.accesories_heading h3 .shape {
+    position: relative;
+}
+
+.accesories_heading h3 span {
+    position: relative;
+}
+
+.accesories_heading h3 span::before {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 2px;
+    background: #FF1744;
+    top: 80%;
+    left: calc(100% + 10px);
+    transform: translateY(-50%);
+}
 
 
 
 
+.accesories_card_wraper{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+}
+.button_right{
+    position: absolute;
+    left: 98%;
+    z-index: 150;
+    /* transition: all linear 0.3s; */
+
+}
+
+.button_right i{
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    
+}
+.button_left{
+    position: absolute;
+    left: -2%;
+    z-index: 150;
+    /* transition: all linear 0.3s; */
+
+}
+
+.button_left i{
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
 
 
+.accesories_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 315px;
+    background-color: #212121;
+    padding: 25px 0;
+    z-index: 70;
+}
+.accesories_card:hover{
+    z-index: 100;
+    scale: 1.01;
+}
+.accesories_card h3{
+    margin-bottom: 25px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 1%;
+    color: #fff;
+}
+.accesories_card h4{
+    margin-top: 45px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+}
+.accesories_card p{
+    margin-top: 20px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FF4655;
+}
 
-
-
-
-/* ---black friday css end here--- */
-
-
-
-
-
+/* -accesories css part end--- */
 
 /* font-family: "Oswald",sans-serif; */
 
