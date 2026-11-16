@@ -1052,6 +1052,134 @@ color: #FFFFFF;
 
 /* -accesories css part end--- */
 
+
+
+
+
+
+
+/* team_part css starts here */
+#team_part{
+   padding: 100px 0;
+   background: #212121; 
+}
+.team_heading h3{
+    text-align: end;
+    font-family: "Barlow Condensed", sans-serif; 
+    font-weight: 500;
+    font-size: 38px;
+    letter-spacing: 7%;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 50px;
+}
+.team_heading h3::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background: #ff4655;
+    right: 120px;
+    bottom: 10px;
+    font-family: "Barlow Condensed", sans-serif; 
+
+}
+.team_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.team_one{
+    position: relative;
+    overflow: hidden;
+}
+.team_one img {
+    width: 100%;
+    filter: grayscale(100%) brightness(40%);
+    transition: .4s;
+}
+.team_one:hover img {
+    filter: grayscale(0%) brightness(100%);
+}
+.game_title{
+    font-family: "Barlow Condensed", sans-serif; 
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.game_title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px 0 28px 30px;
+    width: 100%;
+    background: rgba(85, 84, 84, 0.18);
+    color: #fff;
+    z-index: 2;
+}
+.game_content {
+    display: flex;
+    gap: 115px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.38);
+    opacity: 0;
+    transition: .4s;
+    z-index: 2;
+}
+
+.game_text h3{
+    font-family: "Barlow Condensed", sans-serif; 
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.game_text p{
+    font-family: "Barlow Condensed", sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF; 
+    width: 300px; 
+    padding-bottom: 20px;
+}
+.game_text button{
+    font-family: "Barlow Condensed", sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    padding: 4px 20px 5px;
+    background: #FF4655;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 30px;
+}
+.game_icon i{
+    color: #FFFFFF;
+    background-color: #FF4655;
+    border-radius: 50%;
+    padding: 8px 7px;
+    margin-right: 20px;
+    margin-top: 140px;
+
+}
+
+.team_one:hover .game_content {
+    opacity: 1;
+    
+}
+.team_one:hover .game_title {
+    opacity: 0;
+}
+
+
+
+/* team_part css ends here */
+
 /* font-family: "Oswald",sans-serif; */
 
 /* font-family: "Barlow Condensed", sans-serif; */
